@@ -1,0 +1,23 @@
+:root{
+    --mainColor: #29335C;
+    --mainColorLight: #5767aa;
+    --secondaryColor: #DB2B39;
+    --textColor: #eee;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
